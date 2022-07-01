@@ -1,0 +1,12 @@
+{
+//configução do compilador
+    "compilerOptions": { // onde será gravado os arquivos resultantes
+        "outDir": "dist/js",
+        "target": "ES6",//converte para a versão do (ECMAScript6)javascript
+        "noEmitOnError": true, // evita gerar um arquivo js com problema
+        "noImplicitAny": true
+    },
+    "include": ["app/**/*" ]//incluir o app e todas a suas pastas e subpastas
+        
+}
+   
